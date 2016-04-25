@@ -9,6 +9,36 @@ public class Estudiante {
     private boolean casado;
     private String email;
 
+    
+    
+    public Estudiante(){
+        nombre = "Diego";
+        apellido = "Huaman";
+        edad = 30;
+        email = "dioegojava01@gmail.com";
+        casado = true;
+    }
+    
+    /**
+     * @param nombre
+     * @param apellido
+     * @param edad
+     * @param email
+     * @param casado 
+     */
+    
+    public Estudiante(String nombre,String apellido, int edad, String email,boolean casado){
+        
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.edad = edad;
+        this.email = email;
+        this.casado = casado;
+        
+    }
+    
+    
+    
     public String getNombre() {
         return nombre;
     }
