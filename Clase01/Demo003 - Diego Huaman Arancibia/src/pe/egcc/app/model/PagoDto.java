@@ -3,24 +3,27 @@ package pe.egcc.app.model;
 
 public class PagoDto {
     
-    private double horasxdia;
+    private double horasDia;
     private double dias;
-    private double pagoxhora;
+    private double pagoHora;
     private double ingresos;
     private double renta;
     private double neto;
     
-    public PagoDto(){
+    public PagoDto(double horasDia, double dias, double pagoHora){
         
-          
+        this.horasDia = horasDia;
+        this.dias = dias;
+        this.pagoHora = pagoHora;          
+        
     }
     
     public double getHorasxdia() {
-        return horasxdia;
+        return horasDia;
     }
 
     public void setHorasxdia(double horasxdia) {
-        this.horasxdia = horasxdia;
+        this.horasDia = horasxdia;
     }
 
     public double getDias() {
@@ -32,11 +35,11 @@ public class PagoDto {
     }
 
     public double getPagoxhora() {
-        return pagoxhora;
+        return pagoHora;
     }
 
     public void setPagoxhora(double pagoxhora) {
-        this.pagoxhora = pagoxhora;
+        this.pagoHora = pagoxhora;
     }
 
     public double getIngresos() {

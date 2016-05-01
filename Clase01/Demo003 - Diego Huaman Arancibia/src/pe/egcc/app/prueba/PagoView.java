@@ -5,6 +5,7 @@
  */
 package pe.egcc.app.prueba;
 
+import javax.swing.JOptionPane;
 import pe.egcc.app.model.PagoDto;
 import pe.egcc.app.service.PagoService;
 
@@ -103,14 +104,18 @@ public class PagoView extends javax.swing.JFrame {
         double dias      = Double.parseDouble(txtDias.getText());
         double pagoxhora = Double.parseDouble(txtPagoxHora.getText());
         
-        PagoDto dto = new PagoDto();
-        
-        dto.setHorasxdia(horasxdia);
-        dto.setDias(dias);
-        dto.setPagoxhora(pagoxhora);
+        PagoDto dto = new PagoDto(horasxdia, dias, pagoxhora);
         
         PagoService service = new PagoService();
         service.procesar(dto);
+        
+        String repo = " ";
+        
+        repo += "Ingresos: "+dto.getIngresos() +"\n";
+        repo += "Días:        "+dto.getRenta()+"\n";
+        repo += "Neto:       "+dto.getNeto()+"\n";
+        
+        JOptionPane.showMessageDialog(this, repo);
         
         
     }//GEN-LAST:event_btnProcesarActionPerformed
