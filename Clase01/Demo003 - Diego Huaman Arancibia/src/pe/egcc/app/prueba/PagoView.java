@@ -117,7 +117,6 @@ public class PagoView extends javax.swing.JFrame {
         
         JOptionPane.showMessageDialog(this, repo);
         
-        
     }//GEN-LAST:event_btnProcesarActionPerformed
 
     /**
