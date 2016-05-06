@@ -17,7 +17,7 @@ public class FormularioMDI extends javax.swing.JFrame {
   public FormularioMDI() {
     initComponents();
     setLocationRelativeTo(null);
-      setMaximumSize(this.getMaximumSize());
+      setExtendedState(MAXIMIZED_BOTH);
   }
 
   /**
@@ -49,7 +49,7 @@ public class FormularioMDI extends javax.swing.JFrame {
         jToolBar1.setFloatable(false);
         jToolBar1.setRollover(true);
 
-        btnTBFactorial.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pe/egcc/app/img/Excel.png"))); // NOI18N
+        btnTBFactorial.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pe/egcc/app/img/calculadora-de-factorial.jpg"))); // NOI18N
         btnTBFactorial.setToolTipText("Factorial");
         btnTBFactorial.setFocusable(false);
         btnTBFactorial.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -61,7 +61,8 @@ public class FormularioMDI extends javax.swing.JFrame {
         });
         jToolBar1.add(btnTBFactorial);
 
-        btnTBMcdMcm.setText("jButton2");
+        btnTBMcdMcm.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pe/egcc/app/img/leica-boton-disparo-m-8mm-negro.jpg"))); // NOI18N
+        btnTBMcdMcm.setToolTipText("MCD y MCM");
         btnTBMcdMcm.setFocusable(false);
         btnTBMcdMcm.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btnTBMcdMcm.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -72,20 +73,23 @@ public class FormularioMDI extends javax.swing.JFrame {
         });
         jToolBar1.add(btnTBMcdMcm);
 
-        jButton3.setText("jButton3");
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pe/egcc/app/img/fibonacci_e_tao_facil_quanto_1_1_2_3_boton_redondo_2_54cm-r60503b1490b24ff8a456f253b70017a5_x7j12_8byvr_324.jpg"))); // NOI18N
+        jButton3.setToolTipText("Fibonacci");
         jButton3.setFocusable(false);
         jButton3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton3.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(jButton3);
 
-        jButton4.setText("jButton4");
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pe/egcc/app/img/Logotipo-pinterest-png-0.png"))); // NOI18N
+        jButton4.setToolTipText("Primo");
         jButton4.setFocusable(false);
         jButton4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton4.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(jButton4);
         jToolBar1.add(jSeparator1);
 
-        btnSalir.setText("Salir");
+        btnSalir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pe/egcc/app/img/23390.png"))); // NOI18N
+        btnSalir.setToolTipText("Salir");
         btnSalir.setFocusable(false);
         btnSalir.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btnSalir.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -158,7 +162,7 @@ public class FormularioMDI extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addComponent(jToolBar1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(desktopPane, javax.swing.GroupLayout.DEFAULT_SIZE, 270, Short.MAX_VALUE))
+                .addComponent(desktopPane, javax.swing.GroupLayout.DEFAULT_SIZE, 262, Short.MAX_VALUE))
         );
 
         pack();

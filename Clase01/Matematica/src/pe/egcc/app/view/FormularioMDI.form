@@ -95,7 +95,7 @@
           <Group type="102" alignment="1" attributes="0">
               <Component id="jToolBar1" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="desktopPane" pref="270" max="32767" attributes="0"/>
+              <Component id="desktopPane" pref="262" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -118,7 +118,7 @@
         <Component class="javax.swing.JButton" name="btnTBFactorial">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/pe/egcc/app/img/Excel.png"/>
+              <Image iconType="3" name="/pe/egcc/app/img/calculadora-de-factorial.jpg"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Factorial"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -131,7 +131,10 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnTBMcdMcm">
           <Properties>
-            <Property name="text" type="java.lang.String" value="jButton2"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/pe/egcc/app/img/leica-boton-disparo-m-8mm-negro.jpg"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="MCD y MCM"/>
             <Property name="focusable" type="boolean" value="false"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
             <Property name="verticalTextPosition" type="int" value="3"/>
@@ -142,7 +145,10 @@
         </Component>
         <Component class="javax.swing.JButton" name="jButton3">
           <Properties>
-            <Property name="text" type="java.lang.String" value="jButton3"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/pe/egcc/app/img/fibonacci_e_tao_facil_quanto_1_1_2_3_boton_redondo_2_54cm-r60503b1490b24ff8a456f253b70017a5_x7j12_8byvr_324.jpg"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Fibonacci"/>
             <Property name="focusable" type="boolean" value="false"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
             <Property name="verticalTextPosition" type="int" value="3"/>
@@ -150,7 +156,10 @@
         </Component>
         <Component class="javax.swing.JButton" name="jButton4">
           <Properties>
-            <Property name="text" type="java.lang.String" value="jButton4"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/pe/egcc/app/img/Logotipo-pinterest-png-0.png"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Primo"/>
             <Property name="focusable" type="boolean" value="false"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
             <Property name="verticalTextPosition" type="int" value="3"/>
@@ -160,7 +169,10 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnSalir">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Salir"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/pe/egcc/app/img/23390.png"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Salir"/>
             <Property name="focusable" type="boolean" value="false"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
             <Property name="verticalTextPosition" type="int" value="3"/>
