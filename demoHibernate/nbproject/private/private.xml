@@ -4,8 +4,10 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/EGCC/JAVA_FOR_ME/demoHibernate/web/index.xhtml</file>
+            <file>file:/C:/EGCC/JAVA_FOR_ME/demoHibernate/src/java/cl/pojos/Libro.java</file>
+            <file>file:/C:/EGCC/JAVA_FOR_ME/demoHibernate/src/java/hibernate.cfg.xml</file>
+            <file>file:/C:/EGCC/JAVA_FOR_ME/demoHibernate/src/java/cl/pojos/Categoria.java</file>
             <file>file:/C:/EGCC/JAVA_FOR_ME/demoHibernate/src/java/cl/bean/CategoriaBean.java</file>
-            <file>file:/C:/EGCC/JAVA_FOR_ME/demoHibernate/src/java/cl/util/HibernateUtil.java</file>
         </group>
     </open-files>
 </project-private>

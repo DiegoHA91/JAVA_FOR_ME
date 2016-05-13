@@ -14,7 +14,17 @@ public class Libro  implements java.io.Serializable {
      private String titulo;
      private String autor;
      private int anio;
+     private boolean selected;
 
+    public boolean isSelected() {
+        return selected;
+    }
+
+    public void setSelected(boolean selected) {
+        this.selected = selected;
+    }
+
+     
     public Libro() {
     }
 

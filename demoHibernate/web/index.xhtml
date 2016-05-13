@@ -11,14 +11,21 @@
         <h:form id="form1">
             <p:panelGrid columns="2">
                 <h:outputText value="Nombre" />
-                <p:inputText value="#{catBean.nombre}" required="true"/>
+                <p:inputText value="#{catBean.categoria.nombre}" required="true"/>
                 <h:outputText value="" />
-                <p:commandButton value="save" actionListener="#{catBean.guardar()}" />
+                <p:commandButton value="save" 
+                                 actionListener="#{catBean.guardar()}"
+                                 update = ":form1, :form2"
+                                 icon="ui-icon-disk"/>
             </p:panelGrid>
         </h:form>
          
         <h:form id="form2">
-            <p:dataTable value="#{catBean.categoria}" var="c">
+            <p:dataTable value="#{catBean.categorias}" var="c">
+                <p:column style="width: 5%; text-align: center">
+                    <f:facet name="header"></f:facet>
+                    <p:selectBooleanCheckbox value="#{c.selected}" />
+                </p:column>
                 <p:column>
                     <f:facet name="header">CODIGO</f:facet>
                     <h:outputText value="#{c.codigo}"></h:outputText>
@@ -28,6 +35,21 @@
                     <h:outputText value="#{c.nombre}"></h:outputText>
                 </p:column>
             </p:dataTable>
+            <p:commandButton value="delete"
+                             actionListener="#{catBean.eliminar()}"
+                             update="form2"
+                             icon="ui-icon-trash">
+                <p:confirm header="Eliminar"
+                           message="¿Está seguro de eliminar?"            
+                           icon="ui-icon-alert"/>
+            </p:commandButton>
+            
+            <p:confirmDialog global="true">
+                <p:commandButton value="si" styleClass="ui-confirmdialog-yes" type="button" icon="ui-icon-check"/>
+                <p:commandButton value="no" styleClass="ui-confirmdialog-no" type="button" icon="ui-icon-close"/>
+            </p:confirmDialog>
+            
+            <p:growl showDetail="true" showSummary="true"/>
         </h:form>
     </h:body>
 </html>
