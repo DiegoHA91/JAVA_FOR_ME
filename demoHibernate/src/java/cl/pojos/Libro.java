@@ -35,13 +35,7 @@ public class Libro  implements java.io.Serializable {
        this.anio = anio;
     }
    
-    public Integer getCodigo() {
-        return this.codigo;
-    }
     
-    public void setCodigo(Integer codigo) {
-        this.codigo = codigo;
-    }
     public Categoria getCategoria() {
         return this.categoria;
     }

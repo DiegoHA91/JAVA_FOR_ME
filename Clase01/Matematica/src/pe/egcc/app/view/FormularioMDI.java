@@ -10,8 +10,9 @@ import javax.swing.JInternalFrame;
 
 
 /**
- *
- * @author Gustavo Coronel
+ * 
+ * 
+ * @author CHERRES
  */
 public class FormularioMDI extends javax.swing.JFrame {
 
