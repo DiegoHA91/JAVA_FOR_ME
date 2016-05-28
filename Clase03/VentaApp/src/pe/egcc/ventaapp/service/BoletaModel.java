@@ -6,7 +6,6 @@
 package pe.egcc.ventaapp.service;
 
 import pe.egcc.ventaapp.dto.ConceptoDto;
-import static pe.egcc.ventaapp.service.CompAbstract.IGV;
 import static pe.egcc.ventaapp.service.CompAbstract.SERVICIO;
 
 /**
