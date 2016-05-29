@@ -13,3 +13,22 @@ proyectizada -> en este tipo de estructura el personal una vez terminado el proy
 Ezpecialiazacion
 consiste en armar procesos para realizar algo.
 
+
+plan para la direccion del proyectos.
+
+Equipo de direccion de proyecto 
+
+esponsor ->el aprueba el plan para la direccion de proyectos
+
+en la ejecucion nacen todas las solicitudes de cambio
+
+monitoreo y control -> impacto   se entrega los entregables par ala verificacíon con el cliete
+			aqui tmb se puede entregar productos de terceros. gestion de canalizaciones
+			
+
+todas las solicitudes de cambio vuelven a ejecucion 
+
+estructura de desgloze de trabajo ->EDT
+
+
+
