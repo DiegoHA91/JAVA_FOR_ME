@@ -1,0 +1,15 @@
+4 tipos de estructura organizativa.
+-lineal o funcional -> El director de proyectos tiene poco o nada responsabilidad.
+-
+
+-matricial
+	debil -> asignar vacaciones no!->permisos no!
+	equilibrada ->
+	fuerte -> en este tipo de estructura el personal una vez terminado el proyeto regresa a su puestos actuales.
+	nota: para el pmbok el mejor es la matricual fuerte
+
+proyectizada -> en este tipo de estructura el personal una vez terminado el proyecto se van o son designados a otro nuevo proyecto
+
+Ezpecialiazacion
+consiste en armar procesos para realizar algo.
+
